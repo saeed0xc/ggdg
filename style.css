@@ -71,6 +71,7 @@ a:focus-visible,.nav-item:focus-visible{outline:2px solid var(--blue);outline-of
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
     margin-bottom: 10px;
+    margin-left: 0;
     font-size: 13px;
     color: #333;
 }
