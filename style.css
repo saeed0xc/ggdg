@@ -61,7 +61,14 @@ a:focus-visible,.nav-item:focus-visible{outline:2px solid var(--blue);outline-of
 .card h3{font-size:16px;font-weight:600;margin-bottom:8px;line-height:1.25;}
 .card p{font-size:13px;line-height:1.5;opacity:.75;}
 
-/* ===== DETAILS TABLE (page 2) ===== */
+/* ===== DETAILS TABLE (page 2) ===== */\
+.section-heading {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #333;
+}
 .details{max-width:900px;margin:0 auto;}
 .row{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:16px 4px;border-bottom:1px solid var(--line);}
 .row .label{font-weight:600;font-size:13px;}
