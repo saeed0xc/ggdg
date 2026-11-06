@@ -67,6 +67,9 @@ a:focus-visible,.nav-item:focus-visible{outline:2px solid var(--blue);outline-of
 .row{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:16px 4px;border-bottom:1px solid var(--line);}
 .row .label{font-weight:600;font-size:13px;}
 .row .value{font-size:13px;line-height:1.5;opacity:.85;}
+.blue-text {
+    color: blue;
+}
 .section-heading {
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
