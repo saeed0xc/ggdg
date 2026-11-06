@@ -62,6 +62,11 @@ a:focus-visible,.nav-item:focus-visible{outline:2px solid var(--blue);outline-of
 .card p{font-size:13px;line-height:1.5;opacity:.75;}
 
 /* ===== DETAILS TABLE (page 2) ===== */
+
+.details{max-width:900px;margin:0 auto;}
+.row{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:16px 4px;border-bottom:1px solid var(--line);}
+.row .label{font-weight:600;font-size:13px;}
+.row .value{font-size:13px;line-height:1.5;opacity:.85;}
 .section-heading {
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
@@ -69,11 +74,6 @@ a:focus-visible,.nav-item:focus-visible{outline:2px solid var(--blue);outline-of
     font-size: 13px;
     color: #333;
 }
-.details{max-width:900px;margin:0 auto;}
-.row{display:grid;grid-template-columns:200px 1fr;gap:24px;padding:16px 4px;border-bottom:1px solid var(--line);}
-.row .label{font-weight:600;font-size:13px;}
-.row .value{font-size:13px;line-height:1.5;opacity:.85;}
-
 @media(prefers-reduced-motion:reduce){*{transition:none!important;}}
 @media(max-width:820px){
   .cards{grid-template-columns:1fr;}
